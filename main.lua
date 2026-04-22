@@ -71,7 +71,7 @@ end
 
 Menu.Banner = {
     enabled = true,
-    imageUrl = "https://imgur.com/a/dn1wvR9.png",
+    imageUrl = "https://imgur.com/gCDHS1Q.png",
     height = 100
 }
 
@@ -144,7 +144,7 @@ function Menu.ApplyTheme(themeName)
     if themeLower == "SpongeBob V1" then
         Menu.Colors.HeaderAqua = { r = 0, g = 255, b = 255 } 
         Menu.Colors.SelectedBg = { r = 0, g = 255, b = 255 }
-        Menu.Banner.imageUrl = "https://imgur.com/a/dn1wvR9.png"
+        Menu.Banner.imageUrl = "https://imgur.com/gCDHS1Q.png"
         Menu.CurrentTheme = "aqua"
     elseif themeLower == "SpongeBob V2" then
         Menu.Colors.HeaderAqua = { r = 0, g = 255, b = 255 }
